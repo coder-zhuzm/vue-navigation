@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-<style>
+<style lang="css">
+@import "./assets/static/css/reset.css"; /* 外部引入css */
+
 </style>
