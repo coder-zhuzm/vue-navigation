@@ -1,5 +1,5 @@
 <template>
-  <div class="home" >
+  <div class="home">
     <nav>
       <div class="container">
         <div class="logo">
@@ -32,6 +32,14 @@
         </el-drawer>
       </div>
     </nav>
+    <div class="search">
+      <form method="get" action="http://www.google.com/search" target="_blank">
+        <!-- input的中name必须为q，否则提交失败，返回google首页-->
+        <input type="text" name="q" size="40" maxlength="255" />
+        <!--input type=hidden name=sitesearch value="yongqing.is-programmer.com"-->
+        <input type="submit" name="btnG" value="谷歌搜索" />
+      </form>
+    </div>
   </div>
 </template>
 
@@ -60,6 +68,5 @@ export default {
 <style  scoped>
 @import "../assets/static/css/home.css";
 @import "../assets/static/font/iconfont.css";
-
 </style>
 
