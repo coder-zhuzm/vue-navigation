@@ -1,0 +1,76 @@
+nav {
+  width: 100%;
+}
+
+nav .container {
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.5) border-box;
+  overflow: hidden;
+  border-radius: 0.3em;
+}
+
+nav .container .logo {
+  margin-left: 2%;
+  float: left;
+  width: 100px;
+  height: 80%;
+}
+
+nav .container .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+nav .container .menu {
+  position: relative;
+  top: 5px;
+  float: right;
+  width: 50px;
+  height: 100%;
+}
+
+nav .container .menu .iconfont {
+  font-size: 30px;
+  color: #fff;
+}
+
+nav .container .menu .menuList {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  width: auto;
+  white-space: nowrap;
+  height: 100%;
+  padding: 0 15px;
+  background: rgba(255, 255, 255, 0.5) border-box;
+  border-radius: 15px;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+nav .container .menu .menuList a {
+  padding: 5px 0;
+  margin-right: 20px;
+  display: inline-block;
+  height: 100%;
+  color: #67C23A;
+  text-align: center;
+}
+
+nav .container .menu .menuList a:last-child {
+  margin: 0;
+}
+
+nav .container .menu:hover .menuList {
+  visibility: visible;
+  opacity: 1;
+}
+
+nav .container::after {
+  content: "";
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+/*# sourceMappingURL=home.css.map */

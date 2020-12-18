@@ -1,0 +1,16 @@
+{
+  "id": "2276116",
+  "name": "navigation",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1304894",
+      "name": "展开菜单",
+      "font_class": "zhankaicaidan",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}
