@@ -19,26 +19,22 @@
             >
           </div>
         </div>
-        <el-button
-          @click="drawer = true"
-          type="primary"
-          style="margin-left: 16px"
-        >
-          点我打开
-        </el-button>
-
-        <el-drawer title="我是标题" :visible.sync="drawer" :with-header="false">
-          <span>我来啦!</span>
-        </el-drawer>
       </div>
     </nav>
-    <div class="search">
-      <form method="get" action="http://www.google.com/search" target="_blank">
-        <!-- input的中name必须为q，否则提交失败，返回google首页-->
-        <input type="text" name="q" size="40" maxlength="255" />
-        <!--input type=hidden name=sitesearch value="yongqing.is-programmer.com"-->
-        <input type="submit" name="btnG" value="谷歌搜索" />
-      </form>
+    <div class="container">
+      <div class="search_box">
+        <div class="search_list">
+          <ul>
+            <li v-for="(item, index) in search_type" :key="index">
+              <i class="iconfont"></i> {{ item }}
+            </li>
+          </ul>
+        </div>
+        <div class="search_form">
+          <input type="text" class="ipt" />
+          <button class="btn"><i class="el-icon-search"></i></button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -48,7 +44,7 @@ export default {
   name: "Home",
   data() {
     return {
-      drawer: false,
+      search_type: ["Google", "Github", "Baidu", "CSDN"],
       bgImg:
         "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608202312022&di=c5c591b24c53ed3a3423949a862b6d13&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2F201503%2F19%2F211608ztcq7higicydxhsy.jpg",
       logo: "",

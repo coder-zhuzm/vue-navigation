@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "2183047",
+      "name": "谷歌",
+      "font_class": "Google",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "3506983",
+      "name": "csdn",
+      "font_class": "csdn",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11981726",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e972",
+      "unicode_decimal": 59762
+    },
+    {
+      "icon_id": "18166606",
+      "name": "百度",
+      "font_class": "baidu",
+      "unicode": "e8cb",
+      "unicode_decimal": 59595
+    },
+    {
       "icon_id": "1304894",
       "name": "展开菜单",
       "font_class": "zhankaicaidan",
