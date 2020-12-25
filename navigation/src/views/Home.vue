@@ -111,8 +111,8 @@ export default {
   },
 };
 </script>
-<style  scoped>
-@import "../assets/static/css/home.css";
+<style lang="scss"  scoped>
+@import "../assets/static/css/home.scss";
 @import "../assets/static/font/iconfont.css";
 </style>
 

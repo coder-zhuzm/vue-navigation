@@ -1,26 +1,22 @@
 nav {
   width: 100%;
 }
-
 nav .container {
   padding: 10px 0;
   background: rgba(0, 0, 0, 0.5) border-box;
   overflow: hidden;
   border-radius: 0.3em;
 }
-
 nav .container .logo {
   margin-left: 2%;
   float: left;
   width: 100px;
   height: 80%;
 }
-
 nav .container .logo img {
   width: 100%;
   height: 100%;
 }
-
 nav .container .menu {
   position: relative;
   top: 5px;
@@ -28,12 +24,10 @@ nav .container .menu {
   width: 50px;
   height: 100%;
 }
-
 nav .container .menu .iconfont {
   font-size: 30px;
   color: #fff;
 }
-
 nav .container .menu .menuList {
   opacity: 0;
   visibility: hidden;
@@ -46,10 +40,8 @@ nav .container .menu .menuList {
   padding: 0 15px;
   background: rgba(0, 0, 0, 0.5) border-box;
   border-radius: 15px;
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
-
 nav .container .menu .menuList a {
   padding: 5px 0;
   margin-right: 20px;
@@ -58,16 +50,13 @@ nav .container .menu .menuList a {
   color: #F56C6C;
   text-align: center;
 }
-
 nav .container .menu .menuList a:last-child {
   margin: 0;
 }
-
 nav .container .menu:hover .menuList {
   visibility: visible;
   opacity: 1;
 }
-
 nav .container::after {
   content: "";
   -webkit-filter: blur(20px);
@@ -75,22 +64,14 @@ nav .container::after {
 }
 
 .search_container {
+  width: 500px;
   margin: 0 auto;
-}
-
-.search_box {
-  width: 40%;
-  margin: 0 auto;
-  margin-top: 100px;
+  text-align: center;
 }
 
 .search_box .search_form {
   position: relative;
-  width: 100%;
-  margin-top: 5%;
-  margin-left: 12%;
 }
-
 .search_box .search_form .switch {
   position: absolute;
   left: 0;
@@ -100,12 +81,10 @@ nav .container::after {
   border-right: 1px solid #d4cdcd;
   border-radius: 0 10px 10px 0;
 }
-
 .search_box .search_form .switch img {
   width: 80%;
   height: 100%;
 }
-
 .search_box .search_form .switch .typeList {
   position: absolute;
   top: 110%;
@@ -115,25 +94,21 @@ nav .container::after {
   width: 60px;
   padding: 10px 0;
 }
-
 .search_box .search_form .switch .typeList li {
   margin-top: 5px;
 }
-
 .search_box .search_form .switch .typeList li .content {
   font-size: 12px;
   color: #C0C4CC;
 }
-
 .search_box .search_form .switch .typeList li:first-child {
   margin: 0;
   border: none;
 }
-
 .search_box .search_form .ipt {
   width: 66%;
   height: 40px;
-  padding-left: 8%;
+  padding-left: 55px;
   font-size: 16px;
   color: #807e7c;
   font-weight: bold;
@@ -141,7 +116,6 @@ nav .container::after {
   border: none;
   border-radius: 10px;
 }
-
 .search_box .search_form .btn {
   margin-left: 1%;
   width: 50px;
@@ -151,4 +125,3 @@ nav .container::after {
   background-color: #fff;
   border-radius: 10px;
 }
-/*# sourceMappingURL=home.css.map */
